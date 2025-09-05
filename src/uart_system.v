@@ -67,7 +67,7 @@ assign rxd = txd;
 wire [7:0] rd_data;
 assign led = rd_data;
 
-my_uart_tx t4(
+uart_tx t4(
     .mclk               (clock              ),
     .n_reset            (n_reset            ),
     .baud_max_cnt       (baud_max_cnt       ),
@@ -79,7 +79,7 @@ my_uart_tx t4(
     .done               (done               )
 );
 
-my_uart_rx t5(
+uart_rx t5(
     .mclk               (clock              ),
     .n_reset            (n_reset            ),
     .baud_max_cnt       (baud_max_cnt       ),
