@@ -1,7 +1,7 @@
 module tb_uart_rx;
 
 reg              mclk, n_reset;
-wire     [15:0]  baud_max_cnt = 16'd10416;
+    wire     [15:0]  baud_max_cnt = 16'd10416; // baudrate = 9600
 wire     [1:0]   parity_sel   = 2'b01;
 wire             stop_sel     = 1'b1;
 reg              read_en;
