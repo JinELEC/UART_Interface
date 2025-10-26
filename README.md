@@ -1,6 +1,6 @@
 # UART_Interface
 
-This projects implements and verifies a UART(Universal Asynchronous Receiver/Transmitter) design on an FPGA.
+This project implements and verifies a UART(Universal Asynchronous Receiver/Transmitter) design on an FPGA.
 
 The UART module enables serial communication between the FPGA and a PC.  
 
@@ -16,6 +16,7 @@ The UART module enables serial communication between the FPGA and a PC.
 ## Verification
 - **Simulation**: Verified using Vivado simulator
 - **Hardware Test**: Implemented on Arty A7-100T board and PuTTY
+Test using PuTTY (baudrate: 9600, 8 data bits, even parity, 2 stop bits)
 
 ## Result
 ![UART_Interface](doc/uart_result_1.png)
