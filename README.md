@@ -1,6 +1,6 @@
-## UART_Interface
+# UART_Interface
 
-# Result
+## Result
 ![UART_Interface](doc/uart_result_1.png)
 
 ![UART_Interface](doc/uart_result_2.png)
